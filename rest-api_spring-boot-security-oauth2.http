@@ -1,0 +1,15 @@
+POST http://localhost:8082/oauth/token
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+username=sang&password=123&grant_type=password&client_id=password&scope=all&client_secret=123
+
+###
+
+GET http://localhost:8082/user/hello?access_token=f7cedd29-437f-49c6-8eb9-1f47e0428455
+Accept: */*
+Cache-Control: no-cache
+
+###
+

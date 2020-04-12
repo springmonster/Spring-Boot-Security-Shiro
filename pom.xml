@@ -20,6 +20,7 @@
         <module>security-db</module>
         <module>security-advanced</module>
         <module>security-shiro</module>
+        <module>security-oauth2</module>
     </modules>
 
     <properties>
